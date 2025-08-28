@@ -1,0 +1,57 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #e0f7fa; /* light cyan background */
+    color: #333;
+}
+
+/* Heading */
+h1 {
+    color: #00796b; /* teal heading */
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00796b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40; /* darker teal on hover */
+}
+
+/* Highlight class toggle */
+.highlight {
+    background-color: #ffeb3b; /* bright yellow */
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"] {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Fruits list styling */
+#fruitsList p {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #004d40;
+}
+
+/* Dynamic paragraph styling */
+p:last-of-type {
+    font-style: italic;
+    color: #d32f2f; /* red for attention */
+}
